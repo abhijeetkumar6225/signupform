@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: #4e98fa6c; /* Background color */
+            padding: 20px;
+        }
+        .heading {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333; /* Heading color */
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+        .submit_btn:hover{
+            cursor: pointer;
+            background-color: rgb(80, 132, 255);
+        }
+        .submit_btn {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: #007bff; /* Button background color */
+            color: #fff; /* Button text color */
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        form{
+           width: 350px;
+            margin: 0px auto;
+        }
+        input{
+            width: 100%;
+            padding: 10px ;
+            padding-left: 5px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            border: 1px solid gray;
+        }
+        .signup_para{
+            margin-bottom: 5px;
+
+
+        }
+        .bottom{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .login_box{
+            margin: 1rem 0;
+            margin-left: 400px;
+            margin-right: 400px;
+            margin-top: 50px;
+            background-color: #fff; /* Form background color */
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="login_box">
+        <h1 class="heading">Login</h1>
+        <div class="form1">
+            <form>
+            
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <label for="Password">Password</label>
+                <input type="text" placeholder="Password" required><br>
+
+                <input class="submit_btn" type="button" value="Submit">
+    
+            </form>
+        </div>
+    </div>
+     <div class="bottom">
+        <footer>
+            <p class="signup_para">Not have an account?<a href="Index1.html">Signup here</a></p>
+         </footer>
+     </div>
+</body>
+</html>
